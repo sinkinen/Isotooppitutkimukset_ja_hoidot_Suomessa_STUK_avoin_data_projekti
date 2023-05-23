@@ -1,4 +1,4 @@
-# :fire: Isotooppitutkimukset ja hoidot_Suomessa STUK avoin data projekti :fire:
+# Isotooppitutkimukset ja hoidot Suomessa STUK avoin data projekti :fire: :fire: :fire: 
 
 ## Yleistä
 Tämä repo sisältää jupyter notebookin (python) (data_analyysi_STUK_aineisto.ipynb), jolla STUK:n avointa data-aineistoa voi tarkastella.
@@ -15,7 +15,7 @@ https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa
 4. Siirrä reposta lataamasi tiedostot juureen (drag and drop toimii)
 6. Lataa [STUK avoin excel aineisto](https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa) ja siirrä juureen
 7. Lataa vielä avoin [geodata sairaanhoitopiireistä](https://github.com/VuokkoH/koronavirus-avoindata) ja siirrä juureen
-8. Avaa notebook ja pääset tarkastelemaan aineistoa
+8. Avaa notebook 'data_analyysi_STUK_aineisto.ipynb' ja pääset tarkastelemaan aineistoa
 
 
 # Muuta 
