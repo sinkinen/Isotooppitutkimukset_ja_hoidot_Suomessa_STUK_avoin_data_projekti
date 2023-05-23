@@ -1,27 +1,31 @@
-# Isotooppitutkimukset ja hoidot_Suomessa STUK avoin data projekti
+# :fire: Isotooppitutkimukset ja hoidot_Suomessa STUK avoin data projekti :fire:
 
 ## Yleistä
-Tämä repo sisältää python notebookin (XXXXXX), jossa on valmiina funktioita ja toiminnallisuuksia joilla STUK:n avointa data-aineistoa voi tutkia 
-(Lisäksi  kirjasto sisältää notebookkin YYYYYY, joka avaa graafisen käyttöliittymän analyysien tutkimiseksi)
+Tämä repo sisältää jupyter notebookin (python) (data_analyysi_STUK_aineisto.ipynb), jolla STUK:n avointa data-aineistoa voi tarkastella.
+Notebook on ohjelmoitu CSC:n tarjoamassa [CSC notebooks pilviympäristössä](https://notebooks.rahtiapp.fi/welcome).
 
-Tämä notebook on ohjelmoitu CSC:n tarjoamassa CSC notebooks pilvipalveluympäristössä. Muuta osiossa on listattu vaadittavat python kirjastot. 
-
-
-Data on saavatilla osoitteesta:
+STUK:n data on saavatilla osoitteesta:
 https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa
 
-Jupyter Machine Learning applikaatio
-https://notebooks.rahtiapp.fi/welcome
+
+## Käyttö
+1. Lataa tämä repository koneelle. 
+2. Kirjaudu CSC notebook palveluun (vaatii Haka- tai csc-tunnuksen)
+3. Kirjautumisen jälkeen Valitse Jupyter Machine Learning ympäristö.
+4. Siirrä reposta lataamasi tiedostot juureen (drag and drop toimii)
+6. Lataa [STUK avoin excel aineisto](https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa) ja siirrä juureen
+7. Lataa vielä avoin [geodata sairaanhoitopiireistä](https://github.com/VuokkoH/koronavirus-avoindata) ja siirrä juureen
+8. Avaa notebook ja pääset tarkastelemaan aineistoa
 
 
 # Muuta 
-Tärkeimmät kirjastot joilla koodin saa toimimaan
-pandas, numpy, geopandas, matplotlib, geojson, plotly, openpyxl
+Suosittelen käyttämään CSC-notebook ympäristö datan tarkasteluun, mutta jos lokaalisti notebookkia haluaa tarkastella  niin alla on määritelty tärkeimmät kirjastot, jotka on vaadittu että kirjaston saa toimimaan: 
+`pandas, numpy, geopandas, matplotlib, geojson, plotly, openpyxl`
 
-Requirements.txt tiedostossa on kaikki csc ympäristöön asennetut paketit.
+Requirements.txt tiedostossa on kaikki CSC Jupyter Machine Learning ympäristöön asennetut paketit.
 
 Jos käytät notebookkia suoraan CSC:n notebooks ympäristössä, niin alkuun pitää asentaa seuraavat ohjelmistot erikseen:
-
+```
 %pip install openpyxl
 %pip install plotly
 %pip install chart_studio
@@ -29,8 +33,7 @@ Jos käytät notebookkia suoraan CSC:n notebooks ympäristössä, niin alkuun pi
 %pip install geopandas
 %pip install moviepy
 %pip install -U kaleido
-
+```
 
 # Yhteystiedot
-
 19.5.2023 Satu Inkinen, etunimi.sukunimi [@]hus.fi
