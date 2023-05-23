@@ -7,22 +7,20 @@ Notebook on ohjelmoitu CSC:n tarjoamassa [CSC notebooks pilviympäristössä](ht
 STUK:n data on saavatilla osoitteesta:
 https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa
 
-
 ## Käyttö
-1. Lataa tämä repository koneelle. 
+1. Lataa tämä repository koneelle
 2. Kirjaudu CSC notebook palveluun (vaatii Haka- tai csc-tunnuksen)
-3. Kirjautumisen jälkeen Valitse Jupyter Machine Learning ympäristö.
-4. Siirrä reposta lataamasi tiedostot juureen (drag and drop toimii)
+3. Kirjautumisen jälkeen valitse Jupyter Machine Learning ympäristö
+4. Siirrä reposta lataamasi tiedostot juureen (drag and drop)
 6. Lataa [STUK avoin excel aineisto](https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa) ja siirrä juureen
 7. Lataa vielä avoin [geodata sairaanhoitopiireistä](https://github.com/VuokkoH/koronavirus-avoindata) ja siirrä juureen
 8. Avaa notebook 'data_analyysi_STUK_aineisto.ipynb' ja pääset tarkastelemaan aineistoa
-
 
 # Muuta 
 Suosittelen käyttämään CSC-notebook ympäristö datan tarkasteluun, mutta jos lokaalisti notebookkia haluaa tarkastella  niin alla on määritelty tärkeimmät kirjastot, jotka on vaadittu että kirjaston saa toimimaan: 
 `pandas, numpy, geopandas, matplotlib, geojson, plotly, openpyxl`
 
-Requirements.txt tiedostossa on kaikki CSC Jupyter Machine Learning ympäristöön asennetut paketit.
+_Requirements.txt_ tiedostossa on kaikki CSC Jupyter Machine Learning ympäristöön asennetut paketit.
 
 Jos käytät notebookkia suoraan CSC:n notebooks ympäristössä, niin alkuun pitää asentaa seuraavat ohjelmistot erikseen:
 ```
