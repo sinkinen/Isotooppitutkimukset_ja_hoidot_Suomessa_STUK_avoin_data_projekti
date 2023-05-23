@@ -16,7 +16,7 @@ https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa
 7. Lataa vielä avoin [geodata sairaanhoitopiireistä:  'healthDistrictsEPSG4326.geojson'](https://github.com/VuokkoH/koronavirus-avoindata) ja siirrä juureen
 8. Avaa notebook `data_analyysi_STUK_aineisto.ipynb` ja pääset tarkastelemaan aineistoa
 
-# Muuta 
+## Muuta 
 Suosittelen käyttämään CSC-notebook ympäristö datan tarkasteluun, mutta jos lokaalisti notebookkia haluaa tarkastella  niin alla on määritelty tärkeimmät kirjastot, jotka on vaadittu että kirjaston saa toimimaan: 
 `pandas, numpy, geopandas, matplotlib, geojson, plotly, openpyxl`
 
@@ -33,5 +33,5 @@ Jos käytät notebookkia suoraan CSC:n notebooks ympäristössä, niin alkuun pi
 %pip install -U kaleido
 ```
 
-# Yhteystiedot
+## Yhteystiedot
 19.5.2023 Satu Inkinen, etunimi.sukunimi [@]hus.fi
