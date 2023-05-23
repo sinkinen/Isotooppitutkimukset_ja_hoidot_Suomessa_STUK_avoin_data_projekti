@@ -1,4 +1,4 @@
-# Isotooppitutkimukset ja hoidot Suomessa STUK avoin data projekti :fire: :fire: :fire: 
+# Isotooppitutkimukset ja hoidot Suomessa STUK avoimen datan analyysi :fire: :fire: :fire: 
 
 ## Yleistä
 Tämä repo sisältää jupyter notebookin (python) (data_analyysi_STUK_aineisto.ipynb), jolla STUK:n avointa data-aineistoa voi tarkastella.
