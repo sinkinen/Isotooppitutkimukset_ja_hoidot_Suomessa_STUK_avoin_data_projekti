@@ -9,7 +9,7 @@ https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa
 
 ## Käyttö
 1. Lataa tämä repository koneelle
-2. Kirjaudu CSC notebook palveluun (vaatii Haka- tai csc-tunnuksen)
+2. Kirjaudu [CSC notebook palveluun](https://notebooks.rahtiapp.fi/welcome) (vaatii Haka- tai csc-tunnuksen)
 3. Kirjautumisen jälkeen valitse Jupyter Machine Learning ympäristö
 4. Siirrä reposta lataamasi tiedostot juureen (drag and drop)
 6. Lataa [STUK avoin excel aineisto](https://www.stuk.fi/avoin-data/isotooppitutkimukset-ja-hoidot-suomessa) ja siirrä juureen
