@@ -29,7 +29,6 @@ Jos käytät notebookkia suoraan CSC:n notebooks ympäristössä, niin alkuun pi
 %pip install chart_studio
 %pip install geojson
 %pip install geopandas
-%pip install moviepy
 %pip install -U kaleido
 ```
 
