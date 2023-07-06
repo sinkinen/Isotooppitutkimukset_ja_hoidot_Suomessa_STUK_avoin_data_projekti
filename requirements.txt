@@ -48,7 +48,6 @@ google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 graphviz==0.20.1
 greenlet @ file:///home/conda/feedstock_root/build_artifacts/greenlet_1667836508676/work
-grpcio==1.50.0
 h5py==3.7.0
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
 imageio==2.22.4
